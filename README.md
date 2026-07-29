@@ -13,7 +13,7 @@ pub fn main() -> Nil {
   heredoc.heredoc("
     This string will be unindented.
 
-    It will not have any trailing spaces.
+    It will not have any leading spaces.
       Except for this line, which is extra indented.
   ")
 }
