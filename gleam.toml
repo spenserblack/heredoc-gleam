@@ -1,5 +1,5 @@
 name = "heredoc"
-version = "1.0.0"
+version = "1.0.1"
 description = "Unindent a string"
 licences = ["Apache-2.0"]
 repository = { type = "github", user = "spenserblack", repo = "heredoc-gleam" }
