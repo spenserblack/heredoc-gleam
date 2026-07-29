@@ -1,0 +1,11 @@
+name = "heredoc"
+version = "1.0.0"
+description = "Unindent a string"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "spenserblack", repo = "heredoc-gleam" }
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
