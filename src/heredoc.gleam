@@ -2,6 +2,7 @@ import gleam/list
 import gleam/result
 import gleam/string
 
+/// Unindents a string.
 pub fn heredoc(s: String) -> String {
   s |> string.split("\n") |> heredoc_list()
 }
